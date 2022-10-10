@@ -1,0 +1,11 @@
+
+.idea/*
+diffractsim/__pycache__/*
+*.pyc
+frame/*
+frame_width/*
+frame_width_withProp/*
+frame_dist/*
+frame_dist_withProp/*
+frame_dist_withProp_10k/*
+frame_dist_withProp_10k_45fps_0.15width/*
