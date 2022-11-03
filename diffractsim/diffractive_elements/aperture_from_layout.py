@@ -30,7 +30,7 @@ class ApertureFromLayout(DOE):
         if True:
 
             # load the amplitude_mask image
-            img = Image.fromarray(self.layout * 255)
+            img = layout #Image.fromarray(self.layout * 255)
             img = img.convert("RGB")
 
             rescaled_img = rescale_img_to_custom_coordinates(img, self.image_size, simulation.extent_x,
